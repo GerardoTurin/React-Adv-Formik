@@ -1,0 +1,67 @@
+[
+    {
+        "type": "input",
+        "name": "firstname",
+        "placeholder": "Gerardo",
+        "label": "First Name",
+        "value": "",
+        "validations": [
+            {
+                "type": "required"
+            },
+            {
+                "type": "minLength",
+                "value": 3
+            }
+        
+        ]
+    },
+    {
+        "type": "input",
+        "name": "lastname",
+        "placeholder": "Turin",
+        "label": "Last Name",
+        "value": "",
+        "validations": [
+            {
+                "type": "required"
+            }
+        ]
+    },
+    {
+        "type": "email",
+        "name": "email",
+        "placeholder": "Correo",
+        "label": "Email",
+        "value": "",
+        "validations": [
+            {
+                "type": "required"
+            },
+            {
+                "type": "email"
+            }
+        ]
+    },
+    {
+        "type": "select",
+        "name": "country",
+        "label": "Country",
+        "value": "",
+        "options": [
+            {
+                "id": "MX",
+                "label": "Mexico"
+            },
+            {
+                "id": "US",
+                "label": "United States"
+            },
+            {
+                "id": "CA",
+                "label": "Canada"
+            }
+        ]
+        
+    }
+]

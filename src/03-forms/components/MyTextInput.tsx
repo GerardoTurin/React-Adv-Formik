@@ -5,7 +5,7 @@ interface MyTextInputProps {
     label: string;
     name: string;
     type?: 'text' | 'email' | 'password';
-    placeholder: string;
+    placeholder?: string;
     [x: string]: any;   // Se le puede pasar cualquier otra propiedad.
 }
 
